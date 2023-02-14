@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/profileWhite"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/red_hat_display"
+            android:text="@string/profile"
+            android:textColor="@color/textOnPageColor"
+            android:textFontWeight="900"
+            android:textSize="39sp"
+            tools:targetApi="p" />
+
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/red_hat_display"
+                tools:text="test"
+                android:textColor="@color/textOnPageColor"
+                android:textFontWeight="700"
+                android:textSize="25sp"
+                tools:targetApi="p" />
+
+            <TextView
+                android:id="@+id/notesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/red_hat_display"
+                tools:text="test"
+                android:textColor="@color/textOnPageColor"
+                android:textFontWeight="500"
+                android:textSize="@dimen/sp_20"
+                tools:targetApi="p" />
+
+            <TextView
+                android:id="@+id/profileLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="29dp"
+                android:textFontWeight="700"
+                android:fontFamily="@font/red_hat_display"
+                android:text="@string/logout_list"
+                android:textColor="@color/textOnPageColor"
+                android:textSize="@dimen/sp_20"
+                tools:targetApi="p" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="end">
+
+            <Button
+                android:id="@+id/deleteProfile"
+                style="@style/deleteButton"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/public_sans_light"
+                android:text="@string/delete_profile"
+                android:textColor="@color/textOnPageColor"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/deleteNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginEnd="16dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/hintTextColor"
+                android:fontFamily="@font/public_sans_light"
+                android:text="@string/delete_all_notes" />
+
+        </LinearLayout>
+
+
+
+</FrameLayout>

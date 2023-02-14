@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_fifthpage_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/skip5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/public_sans_light"
+            android:text="@string/skip"
+            android:textColor="@color/textOnPageColor"
+            android:textFontWeight="400"
+            android:textSize="@dimen/skipTextSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/red_hat_display"
+            android:text="@string/spiice"
+            android:textColor="@color/textOnPageColor"
+            android:textFontWeight="500"
+            android:textSize="@dimen/spiiceInfoPageSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="105dp"
+            android:background="@drawable/ic_fifthpage_up"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="33dp"
+            android:fontFamily="@font/public_sans_light"
+            android:text="@string/text_fifthpage"
+            android:textAlignment="center"
+            android:textColor="@color/textOnPageColor"
+            android:textFontWeight="400"
+            android:textSize="@dimen/textOnPageSize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="73dp"
+            android:background="@drawable/ic_fifthpage_diaporama"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+</FrameLayout>

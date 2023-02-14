@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/bg_button_firststart.xml" value="0.33" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/bg_deleteprofile.xml" value="0.1765" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/bottom_nav_menu_item_color.xml" value="0.1765" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/fragment_profile.xml" value="0.1765" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/search_textfield.xml" value="0.1765" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/drawable/textfields.xml" value="0.1735" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v23/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v23/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_fifthpage.xml" value="0.2783318223028105" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_fourthpage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_main.xml" value="0.2783318223028105" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_secondpage.xml" value="0.365625" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_signup.xml" value="0.365625" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_sixthpage.xml" value="0.27807971014492755" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/activity_thirdpage.xml" value="0.365625" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/fragment_profile.xml" value="0.3491847826086957" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/fragment_progress.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/fragment_search.xml" value="0.3491847826086957" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout-v28/fragment_signup.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_addnote.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_fifthpage.xml" value="0.30012825994014536" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_fourthpage.xml" value="0.30012825994014536" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_list.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_login.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_main.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_secondpage.xml" value="0.30012825994014536" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_signup.xml" value="0.30982905982905984" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_sixthpage.xml" value="0.30012825994014536" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/activity_thirdpage.xml" value="0.30012825994014536" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/container2.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/content_main.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/dialog_item.xml" value="0.26331967213114754" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_addnote.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_bottomnavigation.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_first.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_profile.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_search.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/fragment_second.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/item_notes.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/search_item_notes.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/layout/show_note.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/menu/menu_main.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/AN10onl/app/src/main/res/menu/popup_menu.xml" value="0.30085470085470084" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

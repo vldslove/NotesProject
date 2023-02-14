@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_loginpage_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/red_hat_display"
+            android:text="@string/login"
+            android:textColor="@color/textOnPageColor"
+            android:textSize="@dimen/login_size"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailField"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/email"
+            android:textColorHint="@color/hintTextColor"
+            app:boxStrokeWidth="0dp"
+            android:layout_marginBottom="@dimen/range_between_edittext">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailFieldText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_fields"
+                android:fontFamily="@font/public_sans_light"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordField"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/password"
+            android:textColorHint="@color/hintTextColor"
+            app:boxStrokeWidth="0dp"
+            android:layout_marginBottom="@dimen/range_between_button"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordFieldText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_fields"
+                android:fontFamily="@font/public_sans_light"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="41dp"
+            android:textSize="@dimen/buttonTextSize"
+            android:background="@drawable/bg_button_first_start"
+            android:fontFamily="@font/public_sans_bold"
+            android:text="@string/button_login"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/toSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/public_sans_light"
+            android:layout_marginBottom="94dp"
+            android:text="@string/return_to_sign_up"
+            android:textColor="@color/textOnPageColor"
+            android:textSize="@dimen/textOnPageSize" />
+    </LinearLayout>
+
+
+</FrameLayout>

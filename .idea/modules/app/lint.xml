@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicates">
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable-v24/ic_loginpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_signupactivity_background.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_delete.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fifthpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fifthpage_diaporama.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fifthpage_up.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_firststart_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fourthpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fourthpage_diaporama.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_fourthpage_phone.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_secondpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_secondpage_diaporama.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_secondpage_world.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_share.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_signupactivity_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_sixthpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_sixthpage_diaporama.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_sixthpage_heart.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_thirdpage_background.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_thirdpage_circle1.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_thirdpage_circle2.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_thirdpage_circle3.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/ic_thirdpage_diaporama.png" />
+        <ignore path="C:/Users/vldslv/AndroidStudioProjects/AN10onl-main/app/src/main/res/drawable/icon_message.png" />
+    </issue>
+</lint>

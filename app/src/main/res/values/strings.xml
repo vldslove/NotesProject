@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AN10-onl</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="spiice_firststart">Spiice</string>
+    <string name="discover_the_platform">Discover the platform</string>
+    <string name="spiice">Spiice</string>
+    <string name="skip">Skip</string>
+    <string name="worldtext_secondpage">Find projects from companies\n everywhere in the world</string>
+    <string name="text_thirdpage">Make money while working\n on awesome projects</string>
+    <string name="text_fourthpage">Chat with others freelancers\n and develop your network</string>
+    <string name="text_fifthpage">Work hard and level up!</string>
+    <string name="text_sixthpage">Enjoy your progress!</string>
+    <string name="login">Log-in</string>
+    <string name="button_login">Log-in</string>
+    <string name="return_to_sign_up">Return to Sign-up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="you_have_an_account">You have an account ? <b>Log-in</b></string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_blank">Required field</string>
+    <string name="email_invalid">Invalid email</string>
+    <string name="password_blank">Required field</string>
+    <string name="firstName_blank">Required field</string>
+    <string name="lastName_blank">Required field</string>
+    <string name="passwordLessThan6">Password must be at least 6 characters</string>
+    <string name="passwordMoreThan50">Maximum number of characters exceeded</string>
+    <string name="passwordUpperCase">Must have at least 1 uppercase letter</string>
+    <string name="passwordLowerCase">Must have at least 1 lowercase letter</string>
+    <string name="passwordDigit">Must have at least 1 digit</string>
+    <string name="passwordCharacter">Must have at least 1 special character</string>
+    <string name="add_note_title">Title</string>
+    <string name="add_note_message">Message</string>
+    <string name="add_note">Add note</string>
+    <string name="add_note_button_text">Add</string>
+    <string name="logout_list">Logout</string>
+    <string name="all_notes">All notes</string>
+    <string name="search">Search</string>
+    <string name="filters">Filters</string>
+    <string name="profile">Profile</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="notes">Notes</string>
+    <string name="add">Add note</string>
+    <string name="deleteDialog">Delete?</string>
+    <string name="applyDelete">Apply</string>
+    <string name="test1">test1</string>
+    <string name="test2">test2</string>
+</resources>

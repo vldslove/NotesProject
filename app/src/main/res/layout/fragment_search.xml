@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/profileWhite"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/red_hat_display"
+            android:text="@string/search"
+            android:textColor="@color/textOnPageColor"
+            android:textFontWeight="900"
+            android:textSize="39sp"
+            tools:targetApi="p" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:textColorHint="@color/search_hint_color"
+            app:boxStrokeWidth="0dp"
+            android:hint="@string/search">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edittexts"
+                android:layout_width="match_parent"
+                android:background="@drawable/search_textfield"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_search"
+                android:drawablePadding="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/filters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filters"
+            android:layout_marginTop="31dp"
+            android:layout_marginStart="25dp"
+            android:drawablePadding="5sp"
+            android:textColor="@color/hintTextColor"
+            android:textSize="@dimen/sp_16"
+            app:drawableStartCompat="@drawable/ic_filter" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

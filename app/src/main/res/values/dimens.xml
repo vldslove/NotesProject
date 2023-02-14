@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="skipTextSize">18sp</dimen>
+    <dimen name="textOnPageSize">18sp</dimen>
+    <dimen name="spiiceInfoPageSize">32sp</dimen>
+    <dimen name="buttonTextSize">18sp</dimen>
+    <dimen name="nodeTitle">20sp</dimen>
+    <dimen name="note_message_size">16sp</dimen>
+    <dimen name="range_between_edittext">24dp</dimen>
+    <dimen name="range_between_button">472dp</dimen>
+    <dimen name="login_size">27sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+</resources>

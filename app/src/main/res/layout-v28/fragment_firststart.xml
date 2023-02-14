@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.appInfo.FirstStartFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_firststart_background"
+        android:contentDescription="TODO" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="bottom">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/red_hat_display"
+           android:text="@string/spiice_firststart"
+           android:textColor="@color/textOnPageColor"
+           android:textFontWeight="500"
+           android:textSize="96sp"
+           android:layout_marginBottom="257dp"
+           android:layout_gravity="center"/>
+
+       <Button
+           android:id="@+id/discoverThePlatform"
+           android:layout_width="263dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="37dp"
+           android:background="@drawable/bg_button_first_start"
+           android:fontFamily="@font/public_sans_bold"
+           android:text="@string/discover_the_platform"
+           android:textAlignment="center"
+           android:textAllCaps="false"
+           android:textColor="@color/white"
+           android:textScaleX="0.8"
+           android:textSize="18sp" />
+
+       <TextView
+           android:id="@+id/login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/public_sans_light"
+           android:text="@string/you_have_an_account"
+           android:textColor="@color/textOnPageColor"
+           android:textFontWeight="600"
+           android:textSize="18sp"
+           android:layout_gravity="center"
+           android:layout_marginBottom="98dp"/>
+
+   </LinearLayout>
+
+</FrameLayout>

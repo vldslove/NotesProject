@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array>
+        <item>@font/red_hat_display</item>
+    </array>
+    <array>
+        <item>@font/public_sans_thin</item>
+    </array>
+    <array>
+        <item>@font/public_sans_light</item>
+    </array>
+    <array>
+        <item>@font/public_sans_bold</item>
+    </array>
+</resources>
