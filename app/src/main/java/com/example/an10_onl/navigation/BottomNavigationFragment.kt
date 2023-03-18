@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.an10_onl.R
 import com.example.an10_onl.ui.addNote.AddNoteFragment
 import com.example.an10_onl.ui.listNote.ListFragment
@@ -34,6 +35,7 @@ class BottomNavigationFragment : Fragment() {
             when (it.itemId) {
                 R.id.list -> {
                 parentFragmentManager.beginTransaction()
+                    .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                     .replace(R.id.container, ListFragment())
                     .addToBackStack("")
                     .commit()
@@ -41,6 +43,7 @@ class BottomNavigationFragment : Fragment() {
                 }
                 R.id.search -> {
                     parentFragmentManager.beginTransaction()
+                        .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                         .replace(R.id.container, SearchFragment())
                         .addToBackStack("")
                         .commit()
@@ -48,6 +51,7 @@ class BottomNavigationFragment : Fragment() {
                 }
                 R.id.addNote -> {
                     parentFragmentManager.beginTransaction()
+                        .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                         .replace(R.id.container, AddNoteFragment())
                         .addToBackStack("")
                         .commit()
@@ -55,6 +59,7 @@ class BottomNavigationFragment : Fragment() {
                 }
                 R.id.profile -> {
                     parentFragmentManager.beginTransaction()
+                        .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                         .replace(R.id.container, ProfileFragment())
                         .addToBackStack("")
                         .commit()

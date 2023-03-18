@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import com.example.an10_onl.R
 import com.example.an10_onl.ui.signup.SignupFragment
 import com.example.an10_onl.ui.listNote.ListFragment
@@ -40,6 +41,7 @@ class LoginFragment : Fragment() {
         passwordInputLayout = view.findViewById(R.id.passwordField)
         emailInputLayout = view.findViewById(R.id.emailField)
         binding.toSignup.setOnClickListener {
+//            findNavController().navigate(R.id.action_loginFragment_to_signupFragment)
             parentFragmentManager.beginTransaction()
                 .replace(R.id.container, SignupFragment())
                 .commit()
@@ -60,6 +62,7 @@ class LoginFragment : Fragment() {
                                 .add(R.id.container, ListFragment())
                                 .addToBackStack("")
                                 .commit()
+
                             parentFragmentManager.beginTransaction()
                                 .add(R.id.navigation_bar, BottomNavigationFragment())
                                 .addToBackStack("")

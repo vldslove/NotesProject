@@ -11,8 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_gravity="top">
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,13 +27,15 @@
             tools:targetApi="p" />
 
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp" />
+
 
 
 </FrameLayout>

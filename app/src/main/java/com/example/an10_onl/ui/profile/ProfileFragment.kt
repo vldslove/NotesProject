@@ -15,7 +15,6 @@ import com.example.an10_onl.repositories.SharedPreferencesRepository
 import com.example.an10_onl.ui.login.LoginFragment
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-
 @AndroidEntryPoint
 class ProfileFragment : Fragment() {
     private lateinit var binding: FragmentProfileBinding

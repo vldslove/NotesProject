@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.an10_onl.utils.validation.EmailValidator
 import com.example.an10_onl.utils.validation.Invalid
 import com.example.an10_onl.R
@@ -43,6 +44,7 @@ class SignupFragment : Fragment() {
         lastNameInputLayout = binding.lastNameSignup
 
         binding.loginFromSignup.setOnClickListener{
+//            findNavController().navigate(R.id.action_signupFragment_to_loginFragment)
             parentFragmentManager.beginTransaction()
                 .replace(R.id.container, LoginFragment())
                 .commit()
@@ -62,9 +64,11 @@ class SignupFragment : Fragment() {
                     binding.passwordField.text.toString()
                 )
                 parentFragmentManager.beginTransaction()
+                    .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                     .add(R.id.container, ListFragment())
                     .commit()
                 parentFragmentManager.beginTransaction()
+                    .setCustomAnimations(R.anim.anim_next_fragment, R.anim.anim_previous_fragment)
                     .add(R.id.navigation_bar, BottomNavigationFragment())
                     .commit()
             }

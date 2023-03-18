@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 
     <ImageView
         android:layout_width="match_parent"
@@ -16,6 +18,7 @@
         android:orientation="vertical"
         android:layout_gravity="top">
 
+
         <TextView
             android:id="@+id/skip2"
             android:layout_width="wrap_content"
@@ -28,6 +31,8 @@
             android:textColor="@color/textOnPageColor"
             android:textFontWeight="400"
             android:textSize="@dimen/skipTextSize"/>
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -77,4 +82,10 @@
             android:contentDescription="TODO" />
 
     </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </FrameLayout>
